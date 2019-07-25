@@ -239,7 +239,7 @@ function myUniq(arr) {
   var set = new Set();
   arr.forEach((value) => {
     set.add(value);
-  });
+});
   return set;
 }
 
